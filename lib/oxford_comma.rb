@@ -5,6 +5,6 @@ def oxford_comma(array)
     array.join(" and ")
   else
     end_word=array.pop
-    return array.join(", ") + ", " + " and " + end_word
+    return array.join(", ") + ", " + "and " + end_word
 end
 end
